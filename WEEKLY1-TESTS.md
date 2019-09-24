@@ -19,7 +19,11 @@
 
 ## Big tree 
 (Credit Ryan) 
+
+
 ```nodeValue (TriNode 1 (TriNode 2 (EmptyNode) (TriNode 7 (EmptyNode) (EmptyNode) (EmptyNode)) (EmptyNode)) (TriNode 3 (EmptyNode) (TriNode 6 (EmptyNode) (EmptyNode) (EmptyNode)) (TriNode 15 (EmptyNode) (EmptyNode) (EmptyNode))) (TriNode 96 (EmptyNode) (TriNode 71 (EmptyNode) (TriNode 33 (EmptyNode) (EmptyNode) (TriNode 6 (EmptyNode) (EmptyNode) (EmptyNode))) (EmptyNode)) (EmptyNode)))```
+
+
 Should return 1 (I think?) 
 
 
@@ -29,6 +33,8 @@ Should return 1 (I think?)
 
 ## Increments all nodes by one 
 (Credit Ryan)
+
+
 ```inOrderMap (+1) (TriNode 1 (TriNode 2 (EmptyNode) (TriNode 7 (EmptyNode) (EmptyNode) (EmptyNode)) (EmptyNode)) (TriNode 3 (EmptyNode) (TriNode 6 (EmptyNode) (EmptyNode) (EmptyNode)) (TriNode 15 (EmptyNode) (EmptyNode) (EmptyNode))) (TriNode 96 (EmptyNode) (TriNode 71 (EmptyNode) (TriNode 33 (EmptyNode) (EmptyNode) (TriNode 6 (EmptyNode) (EmptyNode) (EmptyNode))) (EmptyNode)) (EmptyNode)))```
 
 ### Sample output: 
@@ -39,12 +45,20 @@ Should return 1 (I think?)
 
 ## Small adding fold 
 (Credit Declan) 
+
+
 ```preOrderFold (+) 0 (TriNode 1 (TriNode 2 EmptyNode EmptyNode EmptyNode) (TriNode 4 EmptyNode EmptyNode EmptyNode) (TriNode 3 EmptyNode EmptyNode EmptyNode))```
+
+
 Returns 10 
 
 ## Larger adding fold 
 (Credit Jacob) 
+
+
 ```preOrderFold (+) 0 (TriNode 1 (TriNode 2 (EmptyNode) (TriNode 7 (EmptyNode) (EmptyNode) (EmptyNode)) (EmptyNode)) (TriNode 3 (EmptyNode) (TriNode 6 (EmptyNode) (EmptyNode) (EmptyNode)) (TriNode 15 (EmptyNode) (EmptyNode) (EmptyNode))) (TriNode 96 (EmptyNode) (TriNode 71 (EmptyNode) (TriNode 33 (EmptyNode) (EmptyNode) (TriNode 6 (EmptyNode) (EmptyNode) (EmptyNode))) (EmptyNode)) (EmptyNode)))```
+
+
 Returns 240
 
 
