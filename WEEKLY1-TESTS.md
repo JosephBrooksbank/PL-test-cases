@@ -1,7 +1,7 @@
 # Generic Trees to use for 1-6 #
 
 ## Small Tree with 2 children (Credit Ryan)
-TriNode 1 (TriNode 2 (EmptyNode) (EmptyNode) (EmptyNode)) (TriNode 3 (EmptyNode) (EmptyNode) (EmptyNode)) (EmptyNode)
+```TriNode 1 (TriNode 2 (EmptyNode) (EmptyNode) (EmptyNode)) (TriNode 3 (EmptyNode) (EmptyNode) (EmptyNode)) (EmptyNode)```
 
 ## Larger Tree  (Credit Ryan) 
 TriNode 1 (TriNode 2 (EmptyNode) (TriNode 7 (EmptyNode) (EmptyNode) (EmptyNode)) (EmptyNode)) (TriNode 3 (EmptyNode) (TriNode 6 (EmptyNode) (EmptyNode) (EmptyNode)) (TriNode 15 (EmptyNode) (EmptyNode) (EmptyNode))) (TriNode 96 (EmptyNode) (TriNode 71 (EmptyNode) (TriNode 33 (EmptyNode) (EmptyNode) (TriNode 6 (EmptyNode) (EmptyNode) (EmptyNode)))
