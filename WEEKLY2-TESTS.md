@@ -25,7 +25,7 @@ Returns  ``-> ["x", "y"]``
 
 
 
-# map TESTS  #
+# match TESTS  #
 
 `match (Constructor("Square", Tuple[Constant 5, Constant 10]), ConstructorPat("Square", TuplePat([VariablePat "x", VariablePat "y"])))`
 
