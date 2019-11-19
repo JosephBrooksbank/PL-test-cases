@@ -38,6 +38,22 @@ Returns  ``-> ["x", "y"]``
 (Both credit to Troy)
 
 
+# firstMatch TESTS #
+
+`firstMatch (Constant 7) ([VariablePat "two", UnitPat, ConstantPat 7, ConstantPat 9])`
+
+`-> Just [("two",Constant 7)]`
+
+`firstMatch (Constant 7) ([UnitPat, ConstantPat 7, ConstantPat 9])`
+
+`-> Just []`
+
+`firstMatch (Constant 7) ([UnitPat, ConstantPat 9])`
+
+`-> Nothing`
+
+### (All credit for firstMatch to Ryan) ###
+
 
 
 
